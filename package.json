@@ -15,15 +15,13 @@
   },
   "dependencies": {
     "commander": "^7.2.0",
-    "execa": "^5.0.0"
+    "execa": "^5.0.0",
+    "chalk": "^4.1.0"
   },
   "preferGlobal": true,
   "author": {
     "name": "nathanKith",
     "email": "ntolparov@mail.ru"
   },
-  "license": "ISC",
-  "devDependencies": {
-    "chalk": "^4.1.0"
-  }
+  "license": "ISC"
 }
