@@ -1,4 +1,4 @@
-# package-manager
+# [package-manager](https://www.npmjs.com/package/super-package-manager)
 
 > simple cli for work with package.json
 
