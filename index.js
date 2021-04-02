@@ -1,4 +1,4 @@
-#! /usr/bin/end node
+#!/usr/bin/env node
 
 const commander = require('commander');
 const chalk = require('chalk');
@@ -22,7 +22,6 @@ commander
             })
             .catch((err) => {
                 console.log(chalk.redBright('ERROR: there is no package.json file in this directory'));
-                task.skip();
             });
     });
 

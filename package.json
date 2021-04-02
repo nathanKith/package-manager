@@ -6,11 +6,16 @@
   "bin": {
     "package-manager": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nathanKith/package-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanKith/package-manager/issues"
+  },
   "dependencies": {
     "commander": "^7.2.0",
-    "execa": "^5.0.0",
-    "listr": "^0.14.3",
-    "webpack": "^5.30.0"
+    "execa": "^5.0.0"
   },
   "preferGlobal": true,
   "author": {
