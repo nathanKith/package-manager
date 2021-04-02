@@ -1,0 +1,24 @@
+{
+  "name": "package-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "package-manager": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "execa": "^5.0.0",
+    "listr": "^0.14.3",
+    "webpack": "^5.30.0"
+  },
+  "preferGlobal": true,
+  "author": {
+    "name": "nathanKith",
+    "email": "ntolparov@mail.ru"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0"
+  }
+}
