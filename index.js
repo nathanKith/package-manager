@@ -1,3 +1,5 @@
+#! /usr/bin/end node
+
 const commander = require('commander');
 const chalk = require('chalk');
 const {readFileJson, printKeysObject} = require('./lib/read-write');
