@@ -31,6 +31,9 @@ commander
     .action((value) => {
         console.log('installing dependencies...');
         execa('npm', ['i', value])
+            .then(() => {
+                console.log('completed!');
+            })
             .catch(({stderr}) => {
                 console.log(chalk.redBright(stderr));
             });
